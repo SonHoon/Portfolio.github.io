@@ -505,48 +505,48 @@ body {
     }
 }
 
-
+/* Style for the "Personal Story" section */
 .about-right {
-    background-color: #0077b6; 
-    padding: 20px; 
-    border-radius: 10px; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
-    margin-top: 20px; 
-    color: #fff; 
-    border: 1px solid #d1d1d1; 
+    background-color: #0077b6; /* Background color */
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    margin-top: 20px; /* Adjust top margin as needed */
+    color: #fff; /* Text color */
+    border: 1px solid #d1d1d1; /* Add a light border */
 }
 
 .about-right h2 {
-    font-size: 24px; 
-    color: #fff; 
-    margin-bottom: 10px; 
+    font-size: 24px; /* Heading font size */
+    color: #fff; /* Heading text color */
+    margin-bottom: 10px; /* Spacing below heading */
 }
 
 .about-right p {
-    font-size: 16px; 
-    line-height: 1.6; 
-    color: #f9f9f9; 
-    margin-bottom: 15px; 
+    font-size: 16px; /* Paragraph font size */
+    line-height: 1.6; /* Line height for readability */
+    color: #f9f9f9; /* Paragraph text color */
+    margin-bottom: 15px; /* Spacing below paragraphs */
 }
 
 .about-right button {
-    padding: 10px 20px;
-    background-color: #f9f9f9; 
-    color: #0077b6; 
-    border: none; 
-    border-radius: 5px; 
-    cursor: pointer; 
-    transition: background-color 0.3s ease; 
+    padding: 10px 20px; /* Button padding */
+    background-color: #f9f9f9; /* Button background color */
+    color: #0077b6; /* Button text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Rounded button corners */
+    cursor: pointer; /* Add cursor pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth button hover transition */
 }
 
 .about-right button:hover {
-    background-color: #00557e; 
+    background-color: #00557e; /* Button background color on hover */
 }
 
-
+/* Media query for responsiveness on smaller screens */
 @media (max-width: 768px) {
     .about-right {
-        margin-top: 10px; 
+        margin-top: 10px; /* Adjust top margin for smaller screens */
     }
 }
 
