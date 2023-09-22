@@ -62,10 +62,31 @@ body {
 
 .home {
     height: 100vh;
+    background: #081b29;
     display: flex;
     align-items: center;
     padding: 0 10%;
+    position: relative; 
+}
 
+.home-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+    width: 40%; 
+    max-height: 80vh; 
+    border: 5px solid #00abf0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.home-image {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
 }
 
 .home-content {
@@ -413,10 +434,8 @@ body {
     color: #00abf0;
 }
 
-/* Existing CSS styles for the "About Me" section */
-
 .about {
-    background-image: url('your-background-image.jpg');
+
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -470,8 +489,6 @@ body {
     padding: 40px;
 }
 
-
-
 .about-content h1::after {
     content: '';
     display: block;
@@ -480,3 +497,59 @@ body {
     background-color: #00abf0;
     margin: 10px auto;
 }
+
+
+@media (max-width: 768px) {
+    .about-right {
+        margin-top: 10px;
+    }
+}
+
+
+.about-right {
+    background-color: #0077b6; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin-top: 20px; 
+    color: #fff; 
+    border: 1px solid #d1d1d1; 
+}
+
+.about-right h2 {
+    font-size: 24px; 
+    color: #fff; 
+    margin-bottom: 10px; 
+}
+
+.about-right p {
+    font-size: 16px; 
+    line-height: 1.6; 
+    color: #f9f9f9; 
+    margin-bottom: 15px; 
+}
+
+.about-right button {
+    padding: 10px 20px;
+    background-color: #f9f9f9; 
+    color: #0077b6; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.about-right button:hover {
+    background-color: #00557e; 
+}
+
+
+@media (max-width: 768px) {
+    .about-right {
+        margin-top: 10px; 
+    }
+}
+
+
+
+
